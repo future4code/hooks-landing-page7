@@ -2,3 +2,49 @@
     margin: 0px;
     padding: 0px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+    background-color: #dbe3eb;
+    color: #2e3237;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.site-map {
+    display: flex;
+    flex-direction: column;
+}
+
+.icones-pequenos {
+    width: 7%;
+    height: 7%;
+}
+
+a {
+    color: #7c848c;
+    font-weight: bold;
+}
+
+@media screen and (max-device-width :480px) {
+    
+    footer {
+        flex-direction: column;
+        padding: 5%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer-margin {
+        margin: 5%;
+    }
+    
+    .site-map {
+        margin: 5%;
+    }
+    
+}
