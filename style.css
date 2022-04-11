@@ -4,9 +4,16 @@
 }
 
 /* HEADER */
-
+.container-barra-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .img-logo{
     width: 5%;
+}
+.icone-img{
+    width: 2%;
 }
 .container-nav{
     display: flex;
