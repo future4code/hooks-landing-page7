@@ -3,6 +3,18 @@
     padding: 0px;
 }
 
+
+/* HEADER */
+
+.img-logo{
+    width: 5%;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -46,5 +58,4 @@ a {
     .site-map {
         margin: 5%;
     }
-    
 }
