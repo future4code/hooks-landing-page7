@@ -9,34 +9,55 @@
 </head>
 <body>
 <header>
-    <div class="container-menu">
-        <div>
 
-        </div>
-    
-        <div>
-            <div>
-                <img class="img-logo" src="./img/4comfort.png" alt="logo">
-            </div>
-            <div>
-                <input type="text" name="search" placeholder="Buscar .."> 
-            </div>
-    
-        </div>
-        <div class="container-nav">
-            <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="femininos.html">Femininos</a></li>
-                    <li><a href="masculinos.html">Masculino</a></li>
-                    <li><a href="quem-somos.html">Quem somos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                 </ul>
-            </nav>
-        </div>
-    
+    <section class="container-menu">
 
-    </div>
+        <section class="container-barra-menu">
+            
+            <div class="element">
+                <img class="img-logo" src="./img/4comfort.png" alt="logo escrito 4Comfort">
+            </div>
+
+            <div class="bt-busca">
+                <input class="txt-busca" type="text" name="search" placeholder="Buscar ..">
+                <button class="btn-busca" id="btnBusca"> <img class="img-busca" src="./img/lupa.png" alt="Buscar..."/></button> 
+            </div>
+            
+                
+            <section class="itens-menu">
+
+                <div class="itens">
+                    <img class="icone-img" src="./img/favorito.png" alt="coração">
+                    <p>Produtos <br> favoritos</p>
+                </div>
+                <div class="itens" >
+                    <img class="icone-img" src="./img/perfil.png" alt="imagem de perfil">
+                    <p>Faça seu login <br> ou cadastre-se</p>
+                </div>
+                <div class="itens" >
+                    <a href="carrinho.html">
+                    <img class="icone-img" src="./img/carrinho-de-compras.png" alt="carrinho de compras">
+                    </a>
+                </div>
+
+            </section>
+        </section>
+
+        <input type="checkbox" id="input">
+        <label for="input">&#9776;</label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="femininos.html">Feminino</a></li>
+                <li><a href="masculinos.html">Masculino</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            
+        </nav>
+    </section>
+
 </header>
     
 <footer>
