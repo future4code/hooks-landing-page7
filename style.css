@@ -12,10 +12,7 @@
     flex-direction:column;
     width: 100%;
     background-color: #dbe3eb;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
+ 
 }
 .container-barra-menu{
     display: grid;
