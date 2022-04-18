@@ -231,6 +231,37 @@ label[for="input"]{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.cards-pagina button{
+    width: 118px;
+    height: 40px;
+    background-color:#363B40;;
+    border: medium none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+    outline: currentcolor none medium;
+    font-weight: bold;
+}
+@media screen and (max-device-width :480px) {
+    .chamada p {
+        font-size: 2em;
+    }
+    .card-pagina-inicial {
+        flex-direction: column;
+        margin-top: 51px;
+    }
+    .cards-pagina {
+        width: 249px;
+        margin-left: 0px;
+        margin-bottom: 22px;
+    }
+    .cards-pagina h3{
+        height: 32.233px;
+        width: 132.933px;
+    }
+}
 
 /*Footer*/
 footer {
@@ -404,8 +435,11 @@ a {
     .container-login{
         display: flex;
         flex-direction: column;
-        
-    
+        margin-top: 0px;
+        align-items: center;
+    }
+    .forms {
+        margin-bottom: 13px
     }
 }
 
@@ -476,7 +510,7 @@ a {
 .texto-quem-somos{
     margin-left: 51px;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Arial",sans-serif;
     display: flex;
     align-items: center;
@@ -494,7 +528,7 @@ a {
 .lista-quem-somos{
     margin-left: 51px;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Arial",sans-serif;
     display: flex;
     align-items: center;
